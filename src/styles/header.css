@@ -1,0 +1,27 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #b00087;
+    color: white;
+    height: 150px;
+}
+
+#header > div > ul{
+    display: flex;
+    gap: 40px;
+}
+
+#header > div > ul > li{
+    list-style-type: none;
+}
+
+#header > div > ul > li > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#header > div > ul > li > a:visited{
+    color: inherit;
+}
