@@ -1,0 +1,45 @@
+#shop{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+    flex: 1;
+    padding: 20px;
+}
+
+.card{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.card > .description{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.card > .description > button{
+    width: 100px;
+    padding: 5px;
+    align-self: center;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #f091a2;
+}
+
+.card:hover{
+    background-size: 110%;
+    cursor: pointer;
+}
+
+.card > .description > button:hover{
+    transform: scale(1.1);
+}
