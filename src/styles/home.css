@@ -1,3 +1,7 @@
+.selected{
+    background-color: rgb(87, 87, 87) !important;
+}
+
 #home{
     display: flex;
     flex: 1;
@@ -28,6 +32,10 @@
     color: white;
 }
 
+#left > button:hover{
+    background-color: #5e004b;
+}
+
 #right{
     display: flex;
     justify-content: center;
@@ -47,8 +55,13 @@
 }
 
 #right > div button{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: none;
+    background-color: black;
+}
+
+#right > div button:hover{
+    background-color: rgb(87, 87, 87);
 }
